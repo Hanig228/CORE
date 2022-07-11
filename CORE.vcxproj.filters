@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SRC\main.cpp" />
+    <ClCompile Include="SRC\GLFW.cpp" />
+    <ClCompile Include="SRC\WIN_SYS\window.cpp" />
+    <ClCompile Include="SRC\GL\VAO.cpp" />
+    <ClCompile Include="SRC\WIN_SYS\Event.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\GLFW.h" />
+    <ClInclude Include="SRC\WIN_SYS\window.h" />
+    <ClInclude Include="SRC\gl.h" />
+    <ClInclude Include="SRC\GL\VAO.h" />
+    <ClInclude Include="SRC\WIN_SYS\Event.h" />
+  </ItemGroup>
+</Project>
